@@ -1,15 +1,66 @@
-/* Element selector that gives every p element a monospace font. */
-p {
-  font-family: monospace;
+
+
+*{
+  background-color: #D4DFC7;
+  margin: 20px;
 }
 
-/* Class selector that gives elements with this class a big bold style. */
-.big {
-  font-size: large;
-  font-weight: bold;
+/* Element selectors*/
+b {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 15pt;
+  color: #725752;
 }
 
-/* ID selector that gives the element with this ID a red style. */
-#boldly {
-  color: red;
+p{
+  color: #6B5468;
 }
+
+i {
+    font-family: 'Bodoni Moda', serif;
+  color: #878E88;
+  font-size: 15pt;
+}
+
+/* ID selectors */
+#inej {
+  color: #FEF6C9;
+  font-size: 20pt;
+}
+
+#jesper{
+  color: #A57982;
+  font-size: 20pt;
+}
+
+#nina{
+  color: #302F4D;
+  font-size: 20pt;
+}
+
+#matthias{
+  color: #120D31;
+  font-size: 20pt;
+}
+
+/*class selectors*/
+
+.rectangle{
+  width:80%;
+  height:2px;
+  background:#96C0B7; 
+  margin-bottom: 20px;
+}
+
+.rectangle2{
+  width:50%;
+  height:2px;
+  background:#96C0B7; 
+}
+
+.name{
+  font-size: 15pt;
+}
+
+
+
