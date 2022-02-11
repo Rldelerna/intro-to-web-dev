@@ -1,12 +1,97 @@
-nav {
-  border: thin solid black;
+*{
+  background-color: #DAD7CD;
 }
+
 
 div {
-  border: thin solid black;
-  margin: 25px 0;
+  border: thin solid #DAD7CD;
+  margin: 25px;
+  padding: 10px;
 }
 
-footer {
-  border: thin solid black;
+
+h1{
+  font-family: monospace;
+  font-size: 25px;
+  padding-left: 50px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+  grid-template-rows: 4fr auto;
+  gap: 5px;
+  border-color: #A3B18A;
+  border-style: thin;
+}
+
+.header {
+  grid-column: 1 / 4;
+  font-size: 50px;
+  color: #588157;
+
+}
+
+.footer {
+  grid-column: 1 / 4;
+  font-size: 20px;
+
+}
+
+.left-sidebar{
+    border-color:  #588157;
+    border-width: 6px;
+   border-radius: 35px;
+   font-size: 16px;
+   font-family: monospace;
+
+}
+
+
+.content{
+  font-size: 15px;
+  font-family: georgia;
+  color: #5D6B60;;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.instagram {
+border-color: #A3B18A;
+border-style: bold;
+border-width: 5px;
+padding: 5px;
+font-family: monospace;
+} 
+
+.twitter {
+border-color: #5D6B60;
+border-style: bold;
+border-width: 5px;
+padding: 5px;
+font-family: monospace;
+ }
+.facebook {
+border-color: #588157;
+border-style: bold;
+border-width: 5px;
+padding: 5px;
+font-family: monospace;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 100px 50px 100px;
+  background-color: #A3B18A;
+margin: 50px;
+padding: 20px;
 }
