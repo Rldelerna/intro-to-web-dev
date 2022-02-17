@@ -1,8 +1,46 @@
+*{
+  background-color: #efebce;
+  margin: 20px;
+}
+
+h1{
+font-family: 'Jua', sans-serif;
+color: #fb8500;
+font-size: 50px;
+}
+
+h2{
+  color: #d8a48f;
+  font-family: 'Jua', sans-serif;
+}
+.enter{
+  color: #9e0059;
+  font-size: 20px;
+  font-family: monospace;
+
+}
+
+button{
+  background-color:#9e0059;
+  color: floralwhite;
+  font-family: monospace;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+}
+
+
 #output {
   /* Output starts invisible */
   display: none;
+  font-size: 20px;
+  font-family: 'Jua', sans-serif;
+
 }
 
-#adjective-one-output {
-  font-weight: bold;
-}
+#your-name-output, #food-one-output, #food-two-output, #food-three-output, #adjective-two-output, #adjective-three-output {
+    color: #9e0059;
+  }
+
+
