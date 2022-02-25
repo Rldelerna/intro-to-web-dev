@@ -1,3 +1,29 @@
+*{
+  background-color: #71A2B6;
+  margin: 10px;
+
+}
+
+h1{
+  font-size: 60px;
+font-family: 'Playfair Display', serif;
+  color: #982649;
+  text-align: center;
+}
+
+h2{
+font-family: 'Raleway', sans-serif;
+color: #FED766;
+font-size: 35px;
+}
+
+p{
+font-family: 'Raleway', sans-serif;
+color: #FED766;
+font-size: 40px;
+text-align: center;
+}
+
 #question-two {
   display: none;
 }
@@ -5,3 +31,33 @@
 #done {
   display: none;
 }
+
+
+button{
+  background-color:#7C8483;
+  color: #60B2E5;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-color: #FED766; 
+}
+
+a:link, a:visited {
+  background-color: #725752;
+  color: #FEF6C9;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Bodoni Moda', serif;
+  float: left;
+
+}
+
+a:hover, a:active {
+  background-color: #96C0B7;
+    float: left;
+
+}
+

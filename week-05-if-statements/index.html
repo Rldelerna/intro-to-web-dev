@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Quiz</title>
+    <title>Birds of Pennsylvania</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <h1>Quiz</h1>
+  <h1><img src= "images/bluebird.png">Birds of Pennsylvania </h1>
+
+
+<br> <br>
+
 
     <div id="question-one">
-      <h2>What's my favorite animal?</h2>
+      <h2>What kind of bird is this?</h2>
+      <img src= "images/owl.jpeg">
       <input id="answer-one-input" />
-      <button onclick="submitAnswerOne();">Done</button>
+      <button onclick="submitAnswerOne();">Enter</button>
     </div>
 
     <div id="question-two">
-      <h2>What's the answer to life, the universe, and everything?</h2>
+      <h2>How many times can the Eastern Whip-poor-will repeat its call in one night?</h2>
+      <img src= "images/east.jpeg">
       <input id="answer-two-input" type="number" />
-      <button onclick="submitAnswerTwo();">Done</button>
+      <button onclick="submitAnswerTwo();">Enter</button>
     </div>
 
+
+<div id="question-three">
+  <h2> In what season does the Winter Wren live close to the ground? </h2>
+   <img src= "images/wren.jpg">
+   <input id="answer-three-input" >
+   <button onclick="submitAnswerThree();">Enter</button>
+ </div>
+
+<div id="question-four">
+  <h2> How common IS the Common Loon? </h2>
+   <img src= "images/loon.jpeg">
+   <input id="answer-four-input" >
+  <button onclick="submitAnswerFour();">Enter</button>
+ </div>
+
+<div id="question-five">
+  <h2> True or False- The Least Bittern is a type of Heron. </h2>
+   <img src= "images/least.jpg">
+   <input id="answer-five-input" >
+  <button onclick="submitAnswerFive();">Enter</button>
+ </div>
+
     <div id="done">
-      <p>Thank you for taking my quiz!</p>
+      <h1> All finished!</h1>
+      <p>Congrats, by completing this quiz you are now a certified bird (almost) expert! Don't put those binoculars away yet though– you still have a long way to go.</p>
+      <a href="https://pa.audubon.org/birds/">Click this link for more information about your local birds!</a>
     </div>
 
   </body>
