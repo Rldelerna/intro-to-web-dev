@@ -1,3 +1,26 @@
 td {
-  border: thin solid black;
+  border-style: solid;
+  border-width: 2pt;
+  border-color: #838E83;
+  padding: 10px;
+}
+
+h1{
+  font-family: monospace;
+  color: #64403E;
+}
+
+*{
+  background: #C9CEBD;
+}
+
+
+button{
+  background-color: #838E83;
+  color: #60B2E5;
+  font-family: serif;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  border-color: #FED766; 
 }
