@@ -1,21 +1,151 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bootstrap</title>
+    <title>Rice & Noodles</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <div class="container">
+<br><br><br>
 
       <div class="col-lg-6 mx-auto">
-        <h1>Hello Bootstrap</h1>
-        <p class="lead">
-          Modify the code in this directory to create your own Bootstrap
-          website!
-        </p>
+          <h1 class="display-1">Rice and Noodles</h1>
       </div>
-
     </div>
+
+<br><br><br>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src= images/welcome.jpeg class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src=images/fresh.jpeg class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src=images/satisfying.jpeg class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<br><br><br>
+      <h2> Hours </h2>
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+        Rice and Noodles
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+      <div class="card-body">
+        <p> Monday - Saturday: 10:00AM - 7:45PM </p>
+        <p> Sunday: CLOSED </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        Sprout
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        <p> Monday - Saturday: 11:00AM -6:45PM </p>
+        <p> Sunday: CLOSED </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <br> <br> 
+
+ <div class="container">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    Order Online
+      </button>
+      <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="https://riceandnoodlesrestaurant.com/order-online-rice-noodles/">Rice & Noodles</a></li>
+      <li><a class="dropdown-item" href="https://riceandnoodlesrestaurant.com/order-online-sprout/">Sprout</a></li>
+      <li><a class="dropdown-item" href="https://riceandnoodlesrestaurant.com/catering/">Cater With Us</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="https://riceandnoodlesrestaurant.com/locate/">Locate Us</a></li>
+      </ul>
+    </div>
+  </div>
+    </div>
+
+  <br> <br> 
+
+<div class="container mt-3">
+  <h2>Locations</h2>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Rice & Noodles</th>
+        <th>Sprout</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Take-Out Only</td>
+        <td>Eat-in or Take-Out</td>
+      </tr>
+      <tr>
+        <td>717-481-7461</td>
+        <td>717-392-7462</td>
+      </tr>
+      <tr>
+        <td>1238 Lititz Pike Lancaster, PA 17601</td>
+        <td>58 N Prince Street Lancaster, PA 17603</td>
+      </tr>
+        <tr>
+        <td>Curbside & pickup at the front of the building.</td>
+        <td>On street parking and parking garages are available near the restaurant.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br><br><br>
+<div class="container mt-3">
+  <h2>Contact Us</h2>
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email">Name:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter name" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="pwd">Phone/Email:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter contact information" name="pswd">
+    </div>
+
+    <label for="comment">Message:</label>
+<textarea class="form-control" rows="5" id="comment" placeholder="Enter message" name="text"></textarea>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
   </body>
 </html>

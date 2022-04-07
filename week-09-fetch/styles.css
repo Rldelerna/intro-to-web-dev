@@ -1,8 +1,46 @@
 #images {
   width: 500px;
-  border: thin solid black;
+padding: 5px;
 }
 
 #images img {
   width: 100px;
 }
+
+*{
+  background-color: #FFF7F2;
+
+}
+
+h1{
+  color: #E7972E;
+  font-size: 80px;
+font-family: 'Marck Script', cursive;
+  text-align: center;
+}
+
+h2{
+  color: #F16537;
+font-family: 'Arvo', serif;
+  font-size: 35px;
+
+}
+
+#links {
+  font-family: 'Arvo', serif;
+  list-style-type: circle;
+}
+
+a:visited{
+  color: #DD4031;
+}
+
+a:link{
+  color: #509F69;
+  text-decoration: none;
+}
+
+a:hover{
+  color:  #F16834;
+}
+
