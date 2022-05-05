@@ -1,7 +1,8 @@
 
+
 *{
   background-color: #D4DFC7;
-  margin-right: 20px;
+
 }
 
 .tab {
@@ -51,14 +52,16 @@
   font-family: 'Bodoni Moda', serif;
   font-size: 45pt;
   color: #725752;
-    margin-left: 50px;
+  margin-left: 35px;
+
 }
 
 .year{
   font-family: 'Bodoni Moda', serif;
   font-size: 20pt;
   color: #878E88;
-    margin-left: 50px;
+    margin-left: 35px;
+
 }
 
 .portfolio{
@@ -66,17 +69,14 @@
   font-size: 50px;
   text-align: right;
   color: #725752;
-}
-
-.container{
-  color: #96C0B7;
-    font-size: 25pt;
-    font-family: 'Bodoni Moda', serif;
-    text-align: center;
-    align-content: center;
-    padding: 20px;
+  margin-right: 35px;
+  margin-top: 15px;
+  display: inline;
 
 }
 
-
-
+.line{
+  width:75%;
+  height:2px;
+  background:#96C0B7; 
+}

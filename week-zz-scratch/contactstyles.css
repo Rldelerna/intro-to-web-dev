@@ -1,0 +1,46 @@
+*{
+  background-color: #D4DFC7;
+  box-sizing: border-box;
+}
+
+.button {
+  font-family: 'Bodoni Moda', serif;
+  border-width: 3 px;
+  margin-left: 50px;
+  margin-top: 20px;
+   font-size: 50 px;
+}
+.button button:hover {
+color: #96C0B7;
+border-radius: 3px;
+}
+
+.form{
+  width: 20%;
+  font-family: 'Rubik', sans-serif;
+  margin-left: 50px;
+   margin-top: 50px;
+   color: #725752;
+}
+
+.subject{
+  width: 30%;
+  font-family: 'Rubik', sans-serif;
+  margin-left: 50px;
+   margin-top: 20px;
+   color: #725752;
+}
+
+.message{
+    margin-left: 50px;
+   margin-top: 20px;
+   width: 50%;
+   color: #725752;
+}
+
+.border{
+  border-width: 20px;
+  border-color: #725752;
+  width: 10ox;
+  background-color: #96C0B7;
+}
